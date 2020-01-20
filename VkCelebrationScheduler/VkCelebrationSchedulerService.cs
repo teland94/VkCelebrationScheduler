@@ -29,7 +29,7 @@ namespace VkCelebrationScheduler
             _accounts = accounts;
             _httpClient = new HttpClient
             {
-                BaseAddress = new Uri("http://vk-celebration.azurewebsites.net/api/")
+                BaseAddress = new Uri("https://vk-celebration.azurewebsites.net/api/")
             };
             _logger = logger;
         }
